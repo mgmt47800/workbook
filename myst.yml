@@ -13,8 +13,16 @@ project:
     - file: intro.md
     - file: content/envsetup/setup.md
       children:
-        - file: content/envsetup/windows/01_intro.md
-        - file: content/envsetup/mac/01_intro.md
+        - file: content/envsetup/windows/00_intro.md
+          children:
+            - file: content/envsetup/windows/01_lrf.md
+            - file: content/envsetup/windows/02_eed.md
+            - file: content/envsetup/windows/03_conda_python.md
+            - file: content/envsetup/windows/04_git.md
+            - file: content/envsetup/windows/05_pkgmgr.md
+            - file: content/envsetup/windows/06_env_vscode.md
+            - file: content/envsetup/windows/07_verify.md
+        - file: content/envsetup/mac/00_intro.md
     
 site:
   template: book-theme

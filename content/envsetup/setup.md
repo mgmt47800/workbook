@@ -23,7 +23,7 @@ GitHub is a great place to "show off" projects that you've done to potential emp
 :::
 
 ### Visual Studio Code
-We will make extensive use of [Visual Studio Code]() as the integrated development environment (IDE) in this course. Ensure you download and install the correct version for your computer.
+We will make extensive use of [Visual Studio Code](https://code.visualstudio.com/) as the integrated development environment (IDE) in this course. Ensure you download and install the correct version for your computer.
 
 :::{note} 
 Advanced students may wish to use a different IDE or setup. That's fine, with these caveats:
@@ -35,8 +35,8 @@ Advanced students may wish to use a different IDE or setup. That's fine, with th
 ## Instructions Based on Your OS
 With GitHub set up and VS Code installed, you're ready to set up your environment. Choose the Operating System for your computer:
 
-- [Windows](/content/envsetup/windows/01_intro.md)
-- [Mac](/content/envsetup/mac/01_intro.md)
+- [Windows](/content/envsetup/windows/00_intro.md)
+- [Mac](/content/envsetup/mac/00_intro.md)
 
 
 ## Terminology
