@@ -7,6 +7,8 @@ You will create a Python virtual environment to use in this course. This environ
 
 Because Python packages contain 1000s of small files, it's best to create this virtual environment **outside** of any directories that are synced (via OneDrive, for example). We'll create it at the root of your `C:` drive.
 
+## Create the Directory
+
 1. **Create the Folder via File Explorer**
    * Open **File Explorer** by pressing {kbd}`Win` + {kbd}`E`
    * Navigate to **This PC** > **Local Disk (C:)**

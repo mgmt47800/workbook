@@ -8,10 +8,12 @@ Now you'll install **Miniconda** and **Python** on your computer.
 **Miniconda** is a lightweight, industry-standard distribution that provides the essential engine for Python data analytics, allowing you to create isolated environments and manage the specific libraries required for complex financial modeling and data-driven decision-making.
 
 :::{note}
-**Miniconda** is a lightweight version of a software named **Anaconda**. You'll see it referred to as both "Miniconda", "Anaconda", and just "Conda" throughout the course. For our purposes, they all refer to the package manager on your computer.
+**Miniconda** is a lightweight version of a software named **Anaconda**. You'll see it referred to as "Miniconda", "Anaconda", and just "Conda" throughout the course. For our purposes, they all refer to the package manager on your computer.
 :::
 
 **Python** is the programming language that we will use to perform our analytics operations in this course.
+
+## Install Python
 
 1. **Install Python via Miniconda**
    * Download the **Miniconda Windows 64-bit installer** from the [official Anaconda site](https://docs.anaconda.com/miniconda/)

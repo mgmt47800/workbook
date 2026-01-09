@@ -5,6 +5,8 @@ label: envsetup-windows-vscode
 
 Now you will create your virtual environment and configure your Visual Studio Code installation to use it.
 
+## Create the Environment
+
 1. **(If not already done) Install Visual Studio Code**
    * Download the **VS Code User Installer for Windows** from the [official VS Code website](https://code.visualstudio.com/)
    * Run the installer and accept the license agreement
@@ -37,6 +39,8 @@ Now you will create your virtual environment and configure your Visual Studio Co
      conda info --envs
      ```
    * Paste it into the prompt and press {kbd}`Enter` to verify the path points to `C:\conda_envs\analytics_env`
+
+## Use the Environment in VS Code
 
    5. **Select the Python Interpreter in VS Code**
    * Open **Visual Studio Code**

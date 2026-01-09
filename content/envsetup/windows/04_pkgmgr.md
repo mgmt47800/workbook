@@ -13,6 +13,8 @@ Now you will install and configure **Mamba**, which actually manages the files _
 ## Mamba: The High-Speed Engine
 **Mamba** is a high-performance version of Conda. When you install a complex library like Pandas, the system must solve a "logic puzzle" to ensure all software parts are compatible. While standard Conda can be slow, Mamba uses a faster C++ engine to download and assemble these parts into your `C:\conda_envs` directory in a fraction of the time.
 
+## Install Mamba
+
 1. **Configure Conda to Use the External Directory**
    * Open the **Anaconda Prompt (miniconda3)** from your Start Menu
    * Copy the following command:

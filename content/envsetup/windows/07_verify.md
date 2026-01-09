@@ -5,6 +5,8 @@ label: envsetup-windows-verify
 
 Finally, you will test your environment setup with a file provided to you.
 
+## Test the Environment
+
 1. **Create the Project Subdirectory**
    * Open **File Explorer** by pressing {kbd}`Win` + {kbd}`E`
    * Navigate to your local root directory you created earlier named `\mgmt47800`
