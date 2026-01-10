@@ -19,20 +19,24 @@ Now you will create your virtual environment and configure your Visual Studio Co
    * Search for and install the **Python** extension provided by Microsoft
 
 3. **Create the Analytics Environment**
-   * Open the **Anaconda Prompt (miniconda3)** from your Start Menu
-   * Copy the following command:
+   * Open the **Miniforge Prompt** from your Start Menu
+   * Copy the following command (you can use either `mamba` if you installed it, or `conda`):
      ```
      mamba create -n analytics_env python=3.11 pandas numpy matplotlib jupyterlab -y
      ```
-   * Paste it into the Anaconda prompt and press {kbd}`Enter`
-   * Wait for Mamba to solve the environment and download the packages into your `C:\conda_envs` directory
+   * Or if you didn't install Mamba:
+     ```
+     conda create -n analytics_env python=3.11 pandas numpy matplotlib jupyterlab -y
+     ```
+   * Paste it into the Miniforge prompt and press {kbd}`Enter`
+   * Wait for the package manager to solve the environment and download the packages into your `C:\conda_envs` directory
 
 4. **Activate and Verify the Environment**
    * Copy the following command:
      ```
      conda activate analytics_env
      ```
-   * Paste it into the Anaconda prompt and press {kbd}`Enter`
+   * Paste it into the Miniforge prompt and press {kbd}`Enter`
    * Confirm that the text in the parentheses at the start of your command prompt has changed from `(base)` to `(analytics_env)`
    * Copy the following command to check the location of your environment:
      ```
@@ -42,7 +46,7 @@ Now you will create your virtual environment and configure your Visual Studio Co
 
 ## Use the Environment in VS Code
 
-   5. **Select the Python Interpreter in VS Code**
+5. **Select the Python Interpreter in VS Code**
    * Open **Visual Studio Code**
    * Open your course folder by going to **File** > **Open Folder...** and selecting the `mgmt47800` directory you created on your computer
    * Open the **Command Palette** by pressing {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`P`

@@ -24,8 +24,16 @@ project:
             - file: content/envsetup/windows/05_env_vscode.md
             - file: content/envsetup/windows/06_git.md
             - file: content/envsetup/windows/07_verify.md
-        - file: content/envsetup/mac/00_intro.md
-    
+        - title: Mac Environment Setup
+          file: content/envsetup/mac/00_intro.md
+          children:
+            - file: content/envsetup/mac/01_lrd.md
+            - file: content/envsetup/mac/02_homebrew.md
+            - file: content/envsetup/mac/03_python.md
+            - file: content/envsetup/mac/04_pkgmgr.md
+            - file: content/envsetup/mac/05_git.md
+            - file: content/envsetup/mac/06_files.md
+            - file: content/envsetup/mac/07_envtest.md
 site:
   template: book-theme
   parts:
