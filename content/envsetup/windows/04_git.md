@@ -20,11 +20,27 @@ For now, you simply need to ensure that the Git software is installed on your co
    * Continue clicking {kbd}`Next` to accept the recommended defaults for all remaining screens (including "Adjusting your PATH environment" and "Choosing the SSH executable")
    * Click {kbd}`Install` and, once finished, uncheck "View Release Notes" and click {kbd}`Finish`
 
-2. **Verify the Git Installation**
-   * Open the **Miniforge Prompt** or a standard Windows command prompt
-   * Copy the following command:
+2. **Configure Git with Your Identity**
+   * Open **PowerShell** by pressing {kbd}`Win` + {kbd}`X` and selecting **Windows PowerShell** (or **Terminal** on Windows 11)
+   * Copy the following command, replacing `Your Name` with your actual name:
+     ```
+     git config --global user.name "Your Name"
+     ```
+   * Paste it into PowerShell and press {kbd}`Enter`
+   * Copy the following command, replacing `youremail@example.com` with your Purdue email:
+     ```
+     git config --global user.email "youremail@example.com"
+     ```
+   * Paste it into PowerShell and press {kbd}`Enter`
+
+3. **Verify the Git Installation**
+   * In PowerShell, copy and run this command:
      ```
      git --version
      ```
-   * Paste it into the prompt and press {kbd}`Enter`
    * Confirm the output displays a version number (e.g., `git version 2.x.x.windows.1`)
+   * Copy and run this command to verify your configuration:
+     ```
+     git config --list
+     ```
+   * Confirm you see your name and email in the output

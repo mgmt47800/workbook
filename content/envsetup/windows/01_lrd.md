@@ -11,14 +11,14 @@ File management is going to be **extremely** important in this course! Please be
 
 ## Create the Directory
 
-1. **Create a directory** with the name `mgmt47800` somewhere on your computer that makes sense to you (e.g., `Documents` or `OneDrive`)
+1. **Create a directory** with the name `mgmt47800` somewhere on your computer that makes sense to you (e.g., `My Documents` or `OneDrive`)
 2. You will create subdirectories within your LRD for each project in the course
-3. Your directory structure should be set up similar to the following:
+3. Your directory structure will _eventually_ be similar to the following:
 
 ```
-Documents/
+My Documents/
 ├── mgmt47800/
-│   ├── getting_started
+│   ├── getting_started/
 │       └── getting_started.ipynb
 │   ├── project01/
 │       └── project01.ipynb

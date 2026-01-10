@@ -18,12 +18,11 @@ project:
           file: content/envsetup/windows/00_intro.md
           children:
             - file: content/envsetup/windows/01_lrd.md
-            - file: content/envsetup/windows/02_eed.md
-            - file: content/envsetup/windows/03_conda_python.md
-            - file: content/envsetup/windows/04_pkgmgr.md
-            - file: content/envsetup/windows/05_env_vscode.md
-            - file: content/envsetup/windows/06_git.md
-            - file: content/envsetup/windows/07_verify.md
+            - file: content/envsetup/windows/02_python.md
+            - file: content/envsetup/windows/03_pkgmgr.md
+            - file: content/envsetup/windows/04_git.md
+            - file: content/envsetup/windows/05_files.md
+            - file: content/envsetup/windows/06_envtest.md
         - title: Mac Environment Setup
           file: content/envsetup/mac/00_intro.md
           children:
